@@ -1,8 +1,11 @@
-function App() {
+import Accordion from "./components/Accordion";
 
+const App = () => {
   return (
-    <h1>ok</h1>
+    <section className='max-container'>
+      <Accordion />
+    </section>
   )
 }
 
-export default App
+export default App;
